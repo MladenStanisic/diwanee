@@ -32,6 +32,7 @@ header{
 
 
 }
+/*Desktop dugme za navigaciju!!!!!!!*/
 @media (min-width:800px) {
 .dropdown{
   display: none;
@@ -113,6 +114,7 @@ nav ul li {
 #button3:hover{
   color:#990000
 }
+/*Footer copyrights tabet i mobilni*/
 @media (max-width: 900px){
   #copy2{
   display: none;
@@ -221,6 +223,82 @@ display: inline-block;
 width: 33%;
 padding-bottom: 70px;
 }
+/*explorer*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+ { #krug{
+   padding-top: 0px;
+   margin-top:-20px;
+   margin-bottom: -80px;
+color:#009933;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 350px;
+font-weight:bold;
+line-height: 100%;
+}
+#trougao{
+  padding-top:0px;
+  margin-top:-20px;
+    margin-bottom: 20px;
+color:#a6ff4d;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 150px;
+font-weight:bold;
+line-height: 100%;
+background-color: #FBFBFB;
+}
+
+#kvadrat{
+  padding-top: 0px;
+  margin-top:-20px;
+  margin-bottom: -80px;
+  color:#b300b3;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 350px;
+  font-weight:bold;
+  line-height: 100%;
+}}
+/*Mozilla F*/
+@-moz-document url-prefix() {
+  #krug{
+  padding-top: 0px;
+  margin-top:-20px;
+  margin-bottom: -80px;
+  background: linear-gradient(0deg, #0bd942 44%, #0bd942 33%, #19a693, #19a693 75%, #d907a1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 350px;
+  font-weight:bold;
+  line-height: 100%;
+  }
+  #trougao{
+    padding-top:0px;
+    margin-top:-20px;
+      margin-bottom: 20px;
+  background: linear-gradient(360deg, #e05252 0%, #99e052 0%, #f1ff33 50%, #f1ff33 75%, #e05252 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 150px;
+  font-weight:bold;
+  line-height: 100%;
+  }
+
+  #kvadrat{
+    padding-top: 0px;
+    margin-top:-20px;
+    margin-bottom: -80px;
+  background: linear-gradient(360deg, #a509d9 43%, #a509d9 25%, #fa0557, #ff0084 75%, #d907a1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 350px;
+    font-weight:bold;
+    line-height: 100%;
+  }}
+  /*CHROME I SAFARI*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
 #krug{
 padding-top: 0px;
 margin-top:-20px;
@@ -237,13 +315,13 @@ line-height: 100%;
   margin-top:-20px;
     margin-bottom: 20px;
 background: linear-gradient(360deg, #e05252 0%, #99e052 0%, #f1ff33 50%, #f1ff33 75%, #e05252 100%);
+
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-size: 150px;
 font-weight:bold;
 line-height: 100%;
 }
-
 #kvadrat{
   padding-top: 0px;
   margin-top:-20px;
@@ -255,7 +333,7 @@ background: linear-gradient(360deg, #a509d9 43%, #a509d9 25%, #fa0557, #ff0084 7
   font-weight:bold;
   line-height: 100%;
 }
-
+}
 
 #poslovi1{
   padding-top: 100px;
@@ -600,6 +678,8 @@ display: none;
 
   }}
 
+  /*TABLET!!!!!!!!!!!*/
+
 @media (max-width:900px)  {
 
   .dropbtn {
@@ -697,39 +777,115 @@ display: none;
   width: 32%;
   padding-bottom: 70px;
   }
-  #krug{
-  padding-top: 0px;
-  margin-top:-50px;
-  margin-bottom: -60px;
-  background: linear-gradient(0deg, #0bd942 44%, #0bd942 33%, #19a693, #19a693 75%, #d907a1 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 250px;
-  font-weight:bold;
-  line-height: 100%;
-  }
-  #trougao{
-    padding-top:0;
-      margin-bottom: 5px;
-  background: linear-gradient(360deg, #e05252 0%, #99e052 0%, #f1ff33 50%, #f1ff33 75%, #e05252 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 120px;
-  font-weight:bold;
-  line-height: 100%;
-  }
-
-  #kvadrat{
+  /*explorer*/
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+    #krug{
     padding-top: 0px;
     margin-top:-50px;
     margin-bottom: -60px;
-  background: linear-gradient(360deg, #a509d9 43%, #a509d9 25%, #fa0557, #ff0084 75%, #d907a1 100%);
+  color:#009933;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 250px;
     font-weight:bold;
     line-height: 100%;
+    }
+    #trougao{
+      padding-top:0;
+        margin-bottom: 5px;
+    color:#a6ff4d;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 120px;
+    font-weight:bold;
+    line-height: 100%;
+    }
+
+    #kvadrat{
+      padding-top: 0px;
+      margin-top:-50px;
+      margin-bottom: -60px;
+    color:#b300b3;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 250px;
+      font-weight:bold;
+      line-height: 100%;
+    }
   }
+    /*CHROME I SAFARI*/
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    #krug{
+    padding-top: 0px;
+    margin-top:-50px;
+    margin-bottom: -60px;
+    background: linear-gradient(0deg, #0bd942 44%, #0bd942 33%, #19a693, #19a693 75%, #d907a1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 250px;
+    font-weight:bold;
+    line-height: 100%;
+    }
+    #trougao{
+      padding-top:0;
+        margin-bottom: 5px;
+    background: linear-gradient(360deg, #e05252 0%, #99e052 0%, #f1ff33 50%, #f1ff33 75%, #e05252 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 120px;
+    font-weight:bold;
+    line-height: 100%;
+    }
+
+    #kvadrat{
+      padding-top: 0px;
+      margin-top:-50px;
+      margin-bottom: -60px;
+    background: linear-gradient(360deg, #a509d9 43%, #a509d9 25%, #fa0557, #ff0084 75%, #d907a1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 250px;
+      font-weight:bold;
+      line-height: 100%;
+    }
+  }
+/*Mozilla F*/
+  @-moz-document url-prefix(){
+    #krug{
+    padding-top: 0px;
+    margin-top:-50px;
+    margin-bottom: -60px;
+    background: linear-gradient(0deg, #0bd942 44%, #0bd942 33%, #19a693, #19a693 75%, #d907a1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 250px;
+    font-weight:bold;
+    line-height: 100%;
+    }
+    #trougao{
+      padding-top:0;
+        margin-bottom: 5px;
+    background: linear-gradient(360deg, #e05252 0%, #99e052 0%, #f1ff33 50%, #f1ff33 75%, #e05252 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 120px;
+    font-weight:bold;
+    line-height: 100%;
+    }
+
+    #kvadrat{
+      padding-top: 0px;
+      margin-top:-50px;
+      margin-bottom: -60px;
+    background: linear-gradient(360deg, #a509d9 43%, #a509d9 25%, #fa0557, #ff0084 75%, #d907a1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 250px;
+      font-weight:bold;
+      line-height: 100%;
+    }
+  }
+
 
 /* POSLOVI */
 
@@ -1063,7 +1219,7 @@ padding-bottom: 20px;
    }
 
    /*MOBILNI!!!!!!!!!!!!*/
-   @media (max-width:500px) {
+   @media (max-width:550px) {
 
      #prvi_oblik{
      display: inline-block;
@@ -1171,6 +1327,7 @@ padding-bottom: 20px;
 
      }
      #copy2{
+       display: block;
       background-color: #1E1E1E;
        font-size: 10px;
        color:#666666;
@@ -1178,7 +1335,6 @@ padding-bottom: 20px;
        padding: 15px;
 
        text-align: center;
-       border: none;
 
      }
      #desno{
