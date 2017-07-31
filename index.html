@@ -3,32 +3,35 @@
   <HEAD>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="javascript.js">
-    </script>
+    <script src="javascript.js"></script>
     <title>Diwanee</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--[if lte IE 9]>
+    <script src="style.css"></script>
+    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
   </HEAD>
   <BODY>
-    <!--Header -->
+
+
+<body>
   <header>
       <div id="header-inner">
         <a href="" id="logo"></a>
-
-
-
-        <div class="dropdown">
-        <img onclick="myFunction()" src="images/menu.png" id="menu" class="dropbtn">
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#home">O NAMA</a>
-          <a href="#about">POSLOVI</a>
-          <a href="#contact">KONTAKT</a>
+         <div class="dropdown">
+           <img onclick="myFunction()" src="images/menu.png" id="menu" class="dropbtn">
+             <div id="myDropdown" class="dropdown-content">
+              <a href="#onama">O NAMA</a>
+              <a href="#poslovii">POSLOVI</a>
+              <a href="#kontakt">KONTAKT</a>
           <div class="dodatak">
           <div id="pratite"> PRATITE NAS</div>
 
           <div id="in2"> in </div>
           <img src="images/tw.png" id="tw3">
-        </div></div>
         </div>
+      </div>
+     </div>
         <nav>
           <ul>
             <li><input  id="button2" type="button" value="POSLOVI" onclick="funkcija2()"></li>
@@ -39,8 +42,6 @@
       </div>
     </header>
     <!--Kraj header-a -->
-    
-    <!--Banner -->
     <section class="banner">
       <div class="banner-inner">
         <h1 style>DIWANEE SERBIA</h1>
@@ -50,53 +51,56 @@
       diverse team</div>
     </section>
     <!--Kraj banera -->
-      
-      <!--Oblici -->
+
+    <!--Oblici-->
     <div class="oblici">
-    <div class="oblik" id="prvi_oblik">
+     <div class="oblik" id="prvi_oblik">
+      <td> <p class="trougao" id="trougao"> &#9651; </p> </td>
 
-    <td> <p id="trougao"> &#9651; </p> </td>
-    <h3>DEVELOPMENT </h3>
-    <div id="linija1">Linija</div>
-    <div id ="tekst">Front-end Developers play a critical role in most proj-
-    ects at Code and Theory. They are actively involved
-    troughout the project lifecycle, often times starting
-  with rapid prorotypes early in the design phase.
-   </div> </div>
+       <h3>DEVELOPMENT </h3>
+       <div id="linija1">Linija</div>
+        <div id ="tekst">Front-end Developers play a critical role in most proj-
+          ects at Code and Theory. They are actively involved
+          troughout the project lifecycle, often times starting
+          with rapid prorotypes early in the design phase.
+       </div>
+     </div>
+
     <div class="oblik" id="drugi_oblik">
-
       <td> <p id="krug"> &#9702; </p> </td>
-      <h3>WEB & UI DESIGN </h3>
-      <div id="linija1">Linija</div>
-      <div id="tekst"> Front-end Developers play a critical role in most proj-
-      ects at Code and Theory. They are actively involved
-      troughout the project lifecycle, often times starting
-    with rapid prorotypes early in the design phase.
-  </div></div>
-    <div class="oblik" id="treci_oblik">
+       <h3>WEB & UI DESIGN </h3>
+        <div id="linija1">Linija</div>
+         <div id="tekst"> Front-end Developers play a critical role in most proj-
+          ects at Code and Theory. They are actively involved
+          troughout the project lifecycle, often times starting
+          with rapid prorotypes early in the design phase.
+        </div>
+      </div>
 
-  <td> <p id="kvadrat"> &#9643; </p> </td>
-  <h3>WORK IN TEAM </h3>
-  <div id="linija1">Linija</div>
-  <div id="tekst">Front-end Developers play a critical role in most proj-
-  ects at Code and Theory. They are actively involved
-  troughout the project lifecycle, often times starting
-with rapid prorotypes early in the design phase.
-  </div>  </div>
-</div>
-      <!--Kraj Oblika-a -->
-      
-         <!--Poslovi -->
+    <div class="oblik" id="treci_oblik">
+     <td> <p id="kvadrat"> &#9643; </p> </td>
+      <h3>WORK IN TEAM </h3>
+       <div id="linija1">Linija</div>
+        <div id="tekst">Front-end Developers play a critical role in most proj-
+         ects at Code and Theory. They are actively involved
+         troughout the project lifecycle, often times starting
+         with rapid prorotypes early in the design phase.
+        </div>
+       </div>
+     </div>
+
+    <!--Poslovi-->
+
     <section class="poslovi" id="poslovii">
       <div id="poslovi1">OTVORENE POZICIJE</div>
-      <div id="poslovi2">POSLOVI</div>
-      <div id="linija2">Linija</div>
-      <div id="poslovi3">We are always looking for motivated, multi-talendet, and organized<br>
-      people to join our diverse team. </div>
-
+       <div id="poslovi2">POSLOVI</div>
+        <div id="linija2">Linija</div>
+         <div id="poslovi3">We are always looking for motivated, multi-talendet, and organized<br>
+           people to join our diverse team. </div>
     </section>
-    <section class="profili">
-      <div class="profil1">
+  <section class="profili">
+    <div class="profil1">
+
         <div id="profil1-tekst1">
           FRONT-END DEVELOPER
         </div>
@@ -118,7 +122,7 @@ with rapid prorotypes early in the design phase.
           #JavaScript
         </div>
 
-      </div>
+    </div>
       <div class="profil2">
         <div id="profil2-tekst1">
           PROJECT MANAGER
@@ -143,9 +147,7 @@ with rapid prorotypes early in the design phase.
         <div id="profil2-dugme-malo">
           #UXpin
         </div>
-
-      </div>
-
+     </div>
       <div class="profil1">
         <div id="profil1-tekst1">
          UX/UI DESIGNER
@@ -173,12 +175,12 @@ with rapid prorotypes early in the design phase.
 
       </div>
       <div class="jos-pozicija">
-      <div id="jos-pozicija-dugme">UČITAJ JOŠ POZICIJA</div>
-    </div>
-    </section>
-      <!--Kraj poslova-a -->
-      
-      <!--O nama -->
+       <div id="jos-pozicija-dugme">UČITAJ JOŠ POZICIJA</div>
+     </div>
+  </section>
+
+  <!--O nama-->
+
     <section class="diwanee" id="onama">
       <div id="poslovi1">DIWANEE BEOGRAD</div>
       <div id="poslovi2">DIGITAL MEDIA COMPANY</div>
@@ -191,14 +193,17 @@ with rapid prorotypes early in the design phase.
          partner i sa velikim regionalnim vlasnicima medija, kako bi smo upravljali svojom digitalnom prisutnošću.
       </div>
     </section>
-         <!--Kraj o nama -->
-      
-      <!--Pratite nas -->
+
+    <!--Pratite nas-->
+
     <section class="pratite-nas">
       <div id="poslovi1" style="padding-bottom:30px;">PRATITE NAS</div>
       <div id="tw"><img id="tw-img" src="images/bird.png"> </div>
       <div id="fb"><img id="fb-img" src="images/fb.png"></div>
     </section>
+
+    <!--Kontakt-->
+
     <section class="contact" id="kontakt">
       <div class="informacije">
         <div id="prvi-grad">
@@ -224,9 +229,10 @@ with rapid prorotypes early in the design phase.
       T:971 4 - 4347147</div>
         </div>
         </div>
-
     </section>
-         <!--Kraj pratite nas -->
+
+    <!--Footer-->
+
     <footer>
       <div id="desno">
       <div id="in"> in </div>
