@@ -1,1 +1,1 @@
-DIWANEE zadati projekat za konkurs.
+DIWANEE
